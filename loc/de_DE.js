@@ -49,9 +49,9 @@ module.exports = {
       coming_soon: 'Demnächst verfügbar',
       lightning: 'Lightning',
       bitcoin: 'Bitcoin',
-      entropy_provide: 'Provide entropy via dice rolls',
-      entropy_generated: '{gen} bytes of generated entropy',
-      entropy_remain: '{gen} bytes of generated entropy. Remaining {rem} bytes will be obtained from the System random number generator.',
+      entropy_provide: 'Entropie durch Würfeln erzeugen',
+      entropy_generated: '{gen} Bytes an generierter Entropie',
+      entropy_remain: '{gen} Bytes an generierter Entropie. Die restlichen {rem} Bytes werden durch den Zufallsgenerator des Systems ergänzt.',
     },
     details: {
       title: 'Wallet',
@@ -255,8 +255,8 @@ module.exports = {
     open_direct_channel: 'Direkten Kanal zu diesem Knoten eröffnen:',
   },
   entropy: {
-    title: 'Entropy',
-    save: 'Save',
-    undo: 'Undo',
+    title: 'Entropie',
+    save: 'Speichern',
+    undo: 'Rückgängig',
   },
 };
